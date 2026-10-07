@@ -1,0 +1,65 @@
+
+typescript -> code 
+    npx tsc -> daalni
+    code run -> 
+
+Hot Module Reloading -> 
+
+
+JSX vs html -> 
+1. We cannot use class keyword we have to use className
+2. JSX we need to utilise camelCasing
+
+3. Wherever you see a paranthesis we are writing JS
+
+
+JSX different from JS
+
+A js function which returns us a JSX is called as a component
+
+file module->
+
+
+
+in 1st ppt pending -> Virtual DOM concept -> Keys in 2nd PPT 
+
+
+2 ways to export in es6 file system
+1. Default export 
+    a. in one file only and only 1 default export can be there. 
+    b. the imported name can change and has to be imported without {}
+
+2. Named export 
+    a. in one file we can have multiple named exports 
+    b. over here the name has to be exactly same and it is imported with {}
+
+can named and default exist together???? 
+    YES 
+
+
+Props -> datatypes????
+    1. Number 
+    2. Boolean
+    3. String
+    4. Arrays 
+    5. Objects 
+    6. Functions 
+    7. Components 
+
+
+*********ASSIGNEMENT REACT - AIRBNB Feed clone 
+
+
+State and variable difference????
+
+React refreshes or rerenders the page only and only when it is aware that it has to make the change. 
+React -> I made a change please compare and update -> 
+
+
+A state is given by react, so whenever you update it. React is aware of it and it calls its rerendering mechanism to 
+display the name page if required
+
+whereas a normal vairable is incapable of doing it
+
+Something which is visible over the viewport and can change in its lifetime, should be defined via a state
+rather than a variable.
